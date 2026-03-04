@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>PIXI</title>
+
+
+    <!-- font awasome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- font linki -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jersey+15&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+    <nav>
+        <h1 class="logo">PI<span>X</span>I</h1>
+        <hr class="nav-hr">
+        <ul class="nav-ul"> <a href="">
+                <li> <i style="margin-right: 15px;" class="fa-solid fa-user nav-icon"></i>Profile </li>
+            </a>
+            <a href="">
+                <li> <i class="fa-solid fa-house nav-icon"></i> Home</li>
+            </a>
+            <a href="">
+                <li><i class="fa-solid fa-tag nav-icon"></i> Discounted Games</li>
+            </a>
+            <a href="">
+                <li> <i class="fa-solid fa-star nav-icon"></i> Popular Games</li>
+            </a>
+            <a href="">
+                <li> <i class="fa-solid fa-gift nav-icon"></i> Free Games</li>
+            </a>
+
+
+
+        </ul>
+
+
+        <ul class="cats-ul hide-ul">
+            <li class="cats-li"><i style="  margin-left: 4px;" class="fa fa-list nav-icon"></i>Categories <i
+                    class="fa-solid fa-caret-right icon"></i></li>
+
+
+            <a href="">
+                <li class="cat"> Action</li>
+            </a>
+            <a href="">
+                <li class="cat">Adventure</li>
+            </a>
+            <a href="">
+                <li class="cat"> RPG</li>
+            </a>
+            <a href="">
+                <li class="cat"> Strategy</li>
+            </a>
+            <a href="">
+                <li class="cat"> Puzzle</li>
+            </a>
+            <a href="">
+                <li class="cat"> Horror</li>
+            </a>
+            <a href="">
+                <li class="cat"> Multiplayer</li>
+            </a>
+
+
+        </ul>
+
+    </nav>
+
+
+    <div class="right-side">
+        <div class="search-profile-nav">
+            <div class="search-profile">
+
+
+                <div class="search-result-div">
+                    <div class="input-style"> <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                        <input type="text" placeholder="Search Game..." class="search">
+
+                    </div>
+                    <div class="search-result"></div>
+                </div>
+
+
+
+                <div class="cart-profile">
+                    <div class="cart-icon">
+                        <i class="fa-solid fa-cart-shopping"> </i>
+                        <div class="cart-say"><span>10</span></div>
+                    </div>
+                    <a href="" class="profil-a">
+                        <div class="profile-img-circle"> <img class="profile-img-icon" src="/img/default_profile.jpg"
+                                alt=""></div>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+        <div class="header-cat-games">
+
+            <div class="cat-img"><img src="/img/horror-cat.jpg" alt="">
+                <div class="cat-img-grad"></div>
+                <p class="cat-name-p">RPG GAMES</p>
+            </div>
+
+        </div>
+
+
+
+        <div class="right-side-container">
+            <div class="filter">
+                <div class="price-sort">
+                    <h3>PRICE</h3>
+                    <label> <input type="radio" name="sort-price" checked>DEFAULT</label>
+                    <label> <input type="radio" name="sort-price">LOW - HIGH</label>
+                    <label> <input type="radio" name="sort-price">HEIGH - LOW</label>
+                </div>
+                <div class="name-sort">
+                    <h3>NAME</h3>
+                    <label> <input type="radio" name="sort-name" checked>DEFAULT</label>
+                    <label> <input type="radio" name="sort-name">A - Z</label>
+                    <label> <input type="radio" name="sort-name">Z - A</label>
+                </div>
+
+
+            </div>
+
+            <div class="game-cards">
+
+
+
+                <a href="" class="card-link">
+                    <div class="rating-div">
+                        <span>4.5 <i class="fa-solid fa-star"></i></span>
+                    </div>
+                    <div class="discount-div">
+                        <span>-100%</span>
+                    </div>
+                    <div class="game-card">
+                        <div class="game-card-img">
+                            <img src="/img/game_3.png" alt="">
+                        </div>
+                        <div class="card-text">
+                            <h2>RESIDENT EVIL VIII</h2>
+                            <p>CAPCOM</p>
+                            <div class="card-prices"><span class="card-old-price">120AZN</span>
+                                <span class="card-new-price">10AZN</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </a> <a href="" class="card-link">
+                    <div class="rating-div">
+                        <span>4.5 <i class="fa-solid fa-star"></i></span>
+                    </div>
+                    <div class="discount-div">
+                        <span>-100%</span>
+                    </div>
+                    <div class="game-card">
+                        <div class="game-card-img">
+                            <img src="/img/game_4.jpg" alt="">
+                        </div>
+                        <div class="card-text">
+                            <h2>RESIDENT EVIL VIII</h2>
+                            <p>CAPCOM</p>
+                            <div class="card-prices"><span class="card-old-price">120AZN</span>
+                                <span class="card-new-price">10AZN</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </a> <a href="" class="card-link">
+                    <div class="rating-div">
+                        <span>4.5 <i class="fa-solid fa-star"></i></span>
+                    </div>
+                    <div class="discount-div">
+                        <span>-100%</span>
+                    </div>
+                    <div class="game-card">
+                        <div class="game-card-img">
+                            <img src="/img/game_5.jpg" alt="">
+                        </div>
+                        <div class="card-text">
+                            <h2>RESIDENT EVIL VIII</h2>
+                            <p>CAPCOM</p>
+                            <div class="card-prices"><span class="card-old-price">120AZN</span>
+                                <span class="card-new-price">10AZN</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </a>
+                <a href="" class="card-link">
+                    <div class="rating-div">
+                        <span>4.5 <i class="fa-solid fa-star"></i></span>
+                    </div>
+                    <div class="discount-div">
+                        <span>-100%</span>
+                    </div>
+                    <div class="game-card">
+                        <div class="game-card-img">
+                            <img src="/img/game_6.png" alt="">
+                        </div>
+                        <div class="card-text">
+                            <h2>HOLLOW KING</h2>
+                            <p>BOMBA ADAMLARINKIDI</p>
+                            <div class="card-prices"><span class="card-old-price">120AZN</span>
+                                <span class="card-new-price">10AZN</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </a> <a href="" class="card-link">
+                    <div class="rating-div">
+                        <span>4.5 <i class="fa-solid fa-star"></i></span>
+                    </div>
+                    <div class="discount-div">
+                        <span>-100%</span>
+                    </div>
+                    <div class="game-card">
+                        <div class="game-card-img">
+                            <img src="/img/game_3.png" alt="">
+                        </div>
+                        <div class="card-text">
+                            <h2>RESIDENT EVIL VIII</h2>
+                            <p>CAPCOM</p>
+                            <div class="card-prices"><span class="card-old-price">120AZN</span>
+                                <span class="card-new-price">10AZN</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </a> <a href="" class="card-link">
+                    <div class="rating-div">
+                        <span>4.5 <i class="fa-solid fa-star"></i></span>
+                    </div>
+                    <div class="discount-div">
+                        <span>-100%</span>
+                    </div>
+                    <div class="game-card">
+                        <div class="game-card-img">
+                            <img src="/img/game_2.jpg" alt="">
+                        </div>
+                        <div class="card-text">
+                            <h2>RESIDENT EVIL VIII</h2>
+                            <p>CAPCOM</p>
+                            <div class="card-prices"><span class="card-old-price">120AZN</span>
+                                <span class="card-new-price">10AZN</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </a> <a href="" class="card-link">
+                    <div class="rating-div">
+                        <span>4.5 <i class="fa-solid fa-star"></i></span>
+                    </div>
+                    <div class="discount-div">
+                        <span>-100%</span>
+                    </div>
+                    <div class="game-card">
+                        <div class="game-card-img">
+                            <img src="/img/game_1.jpg" alt="">
+                        </div>
+                        <div class="card-text">
+                            <h2>RESIDENT EVIL VIII</h2>
+                            <p>CAPCOM</p>
+                            <div class="card-prices"><span class="card-old-price">120AZN</span>
+                                <span class="card-new-price">10AZN</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </a> <a href="" class="card-link">
+                    <div class="rating-div">
+                        <span>4.5 <i class="fa-solid fa-star"></i></span>
+                    </div>
+                    <div class="discount-div">
+                        <span>-100%</span>
+                    </div>
+                    <div class="game-card">
+                        <div class="game-card-img">
+                            <img src="/img/game_3.png" alt="">
+                        </div>
+                        <div class="card-text">
+                            <h2>RESIDENT EVIL VIII</h2>
+                            <p>CAPCOM</p>
+                            <div class="card-prices"><span class="card-old-price">120AZN</span>
+                                <span class="card-new-price">10AZN</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </a>
+
+                <a href="" class="card-link">
+                    <div class="rating-div">
+                        <span>4.5 <i class="fa-solid fa-star"></i></span>
+                    </div>
+                    <div class="discount-div">
+                        <span>-100%</span>
+                    </div>
+                    <div class="game-card">
+                        <div class="game-card-img">
+                            <img src="/img/game_3.png" alt="">
+                        </div>
+                        <div class="card-text">
+                            <h2>RESIDENT EVIL VIII</h2>
+                            <p>CAPCOM</p>
+                            <div class="card-prices"><span class="card-old-price">120AZN</span>
+                                <span class="card-new-price">10AZN</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </a>
+
+
+
+
+
+
+
+            </div>
+
+
+            <div class="pagenation">
+                <button class="geri-page"> < </button>
+                        <button class="page page-active"> 1 </button>
+                        <button class="page"> 2 </button>
+                        <button class="page"> 3 </button>
+                        <button class="ireli-page"> > </button>
+
+
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+
+
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <ul>
+                <li class="logo">PI<span>X</span>I</li>
+                <li>Your favorite place for games.</li>
+            </ul>
+            <ul>
+                <li> Quick Links</li>
+                <li><a href="">Profile</a> </li>
+                <li><a href="">Home</a> </li>
+                <li><a href=""> Discounted Games</a></li>
+                <li><a href=""> Popular Games</a></li>
+                <li><a href="">Free Games</a> </li>
+            </ul>
+            <ul>
+                <li>Follow Us</li>
+                <li><a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                    <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-twitch"></i></a>
+                    <a href=""><i class="fa-brands fa-discord"></i></a>
+                </li>
+            </ul>
+
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 <span class="mini-logo">PI<span>X</span>I</span> // Play Hard, Die Hard</p>
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="pixi.js"></script>
+</body>
+
+</html>

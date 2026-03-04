@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>PIXI</title>
+
+
+    <!-- font awasome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- font linki -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jersey+15&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+    <div class="login-div">
+        <canvas id="canvas" class="login-star"></canvas>
+        <div class="login-left-side">
+            <div class="p-div">  <p class="left-p">WELCOME TO</p>
+            <p class="right-p">PI<span>X</span>I</p></div>
+          
+        </div>
+
+        <div class="login-right-side">
+            <div class="login-container">
+                <h2>LOG IN</h2>
+                <p>Login to continue</p>
+                <form action="" class="login-form">
+                    <div class="input-icon">
+                        <label for="login-email">Email Address</label>
+                        <input type="email" name="" id="login-email">
+                    </div>
+
+                    <div class="input-icon">
+                        <label for="login-password">Password</label>
+                        <input type="password" name="" id="login-password"> <i class="fa-regular fa-eye-slash"></i>
+                    </div>
+                    <button class="login-btn">LOG IN</button>
+                </form>
+
+                <p>Don't have an account? <a href="" class="signup-a"> Sign Up</a></p>
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/starback@2.1.1/dist/starback.global.js"></script>
+    <script>
+        const canvas = document.getElementById('canvas')
+        const starback = new Starback(canvas, {
+            type: 'dot',
+            quantity: 150,
+            direction: 270,
+            backgroundColor: ['#0e1118', '#5c0d76ff'],
+            randomOpacity: true,
+        })
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="pixi.js"></script>
+</body>
+
+</html>
