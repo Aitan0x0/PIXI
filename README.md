@@ -21,7 +21,7 @@ Layihə lokal mühitdə (`localhost`) tam funksional vəziyyətdədir və Full S
 
 ## İstifadə Olunan Texnologiyalar (Tech Stack)
 ### Frontend
-* **React.js** — Dinamik və sürətli istifadəçi interfeysi üçün (self-study)(frontend qovlugunda react yoxdur)
+* **React.js** — Dinamik və sürətli istifadəçi interfeysi üçün (self-study)
 * **JavaScript (ES6+)** — Müştəri tərəfli məntiqlər və API sorğuları üçün
 * **HTML5 & CSS3** — Struktur və vizual dizayn üçün 
 * **Figma** — Layihənin UI/UX dizayn mərhələsi üçün (self-study)
